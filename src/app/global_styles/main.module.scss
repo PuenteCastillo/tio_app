@@ -1,0 +1,58 @@
+$main-Font: "Poppins", Helvetica, sans-serif;
+
+$theme_color: #0b213e;
+
+.global {
+  h2 {
+    font-family: $main-Font;
+    font-weight: bold;
+    font-size: 48px;
+    color: #0b213e;
+    // responsive
+    @media (max-width: 768px) {
+      font-size: 36px;
+    }
+  }
+
+  h4 {
+    font-family: $main-Font;
+    font-weight: bold;
+    font-size: 24px;
+    color: #0b213e;
+
+    // responsive
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+  small {
+    font-family: $main-Font;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #838383;
+    // responsive
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+  .title_link {
+    font-family: $main-Font;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0b213e;
+    text-align: right;
+    // responsive
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+  .divider {
+    width: 80px;
+    height: 4px;
+    background-color: $theme_color;
+
+    margin-left: auto;
+    margin-top: 10px;
+  }
+}

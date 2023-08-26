@@ -1,17 +1,13 @@
 import Image from "next/image";
-import HomeHero from "./global_components/headers/HomeHero";
-import SectionTitle from "./global_components/headers/Section_title";
-import Single_Service from "./global_components/reusable_ui/Single_Service";
+import SearchHeader from "../global_components/headers/SearchHeader";
+import SectionTitle from "../global_components/headers/Section_title";
+import Single_Service from "../global_components/reusable_ui/Single_Service";
 
-export default function Home() {
+export default function Search() {
   return (
     <>
-      <HomeHero />
-
-      <SectionTitle
-        title=" Find the best people in your community"
-        subtitle="We are a community of people who are passionate about what we do."
-      />
+      <SearchHeader />
+      <SectionTitle title="Results for : " subtitle="found 20 results" />
 
       <div className="container max-w-7xl m-auto  mb-32">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-5 md:px-0">
@@ -44,6 +40,25 @@ const dummy_data = [
     description: "Bermuda",
     featured_img: "https://picsum.photos/410/375",
     avatar_img: "https://picsum.photos/182/109",
+  },
+  {
+    title: "Bill Love",
+    description: "Poland",
+    featured_img: "https://picsum.photos/450/350",
+    avatar_img: "https://picsum.photos/185/200",
+  },
+
+  {
+    title: "Bill Love",
+    description: "Poland",
+    featured_img: "https://picsum.photos/450/350",
+    avatar_img: "https://picsum.photos/185/200",
+  },
+  {
+    title: "Bill Love",
+    description: "Poland",
+    featured_img: "https://picsum.photos/450/350",
+    avatar_img: "https://picsum.photos/185/200",
   },
   {
     title: "Bill Love",

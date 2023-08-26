@@ -1,0 +1,48 @@
+.single_service_card {
+  margin-top: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  max-width: 100%;
+  padding: 25px;
+  border-radius: 10px;
+
+  .featured_img {
+    border-radius: 10px;
+    height: 225px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .avatar_container {
+    display: flex;
+    margin-top: -30px;
+
+    div {
+      height: 80px;
+      width: 80px;
+      padding: 3px;
+      background-color: white;
+      border-radius: 100%;
+      overflow: hidden;
+      margin: auto;
+      img {
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        border-radius: 100%;
+      }
+    }
+  }
+
+  .card_content {
+    text-align: center;
+    margin-top: 20px;
+
+    p {
+      font-weight: normal;
+      font-size: 16px;
+
+      color: #0b213e;
+    }
+  }
+}
